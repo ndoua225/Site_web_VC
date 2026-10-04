@@ -1,0 +1,1028 @@
+PRD — Portfolio personnel de Stanislas N'doua
+
+Nom du projet : Portfolio — Stanislas N'doua
+Type : Site portfolio personnel One Page
+Profil : Jeune Vibe Coder / Développeur web
+Langue principale : Français
+Design : Dark / Modern / Tech / Premium
+Responsive : Mobile, tablette, laptop, desktop et grands écrans
+Objectif principal : Présenter Stanislas, ses compétences et ses réalisations afin de donner envie à un visiteur de le contacter.
+
+1. Vision du produit
+
+Le site doit être le portfolio personnel professionnel de Stanislas N'doua, jeune Vibe Coder spécialisé dans la création de solutions web modernes.
+
+L'expérience doit reprendre l'esprit de la hero section fournie :
+
+fond sombre premium ;
+identité visuelle bleu nuit / violet ;
+typographie moderne et très lisible ;
+grands titres ;
+gradients violets/bleus ;
+éléments lumineux subtils ;
+portrait de Stanislas comme élément visuel principal ;
+cartes flottantes de type code ;
+animations légères ;
+navigation simple ;
+excellente lisibilité ;
+design professionnel sans surcharge.
+
+Le site doit donner immédiatement l'impression :
+
+« Voici un jeune développeur moderne qui sait transformer une idée en produit web. »
+
+2. Objectifs du site
+Objectif principal
+
+Présenter Stanislas N'doua et transformer les visiteurs en personnes intéressées par son travail.
+
+Objectifs secondaires
+
+Le site doit permettre de :
+
+présenter son identité ;
+expliquer son profil de Vibe Coder ;
+présenter ses compétences ;
+montrer ses projets ;
+présenter son approche de travail ;
+permettre de télécharger son CV ;
+permettre de le contacter facilement ;
+créer une présence professionnelle en ligne ;
+servir de lien à partager sur LinkedIn, WhatsApp, CV, réseaux sociaux, etc.
+3. Public cible
+
+Le site s'adresse principalement à :
+
+👨‍💼 Recruteurs
+
+Personnes cherchant un développeur junior ou un profil tech.
+
+🏢 Entreprises
+
+Entreprises souhaitant développer :
+
+un site web ;
+une application ;
+un outil interne ;
+une solution métier ;
+un MVP.
+👨‍💻 Développeurs / professionnels IT
+
+Personnes intéressées par son parcours et ses projets.
+
+🚀 Entrepreneurs
+
+Personnes ayant une idée et recherchant quelqu'un capable de la transformer en application.
+
+4. Architecture générale
+
+Le site est One Page.
+
+Il ne doit donc pas y avoir de navigation vers plusieurs pages principales.
+
+Navigation
+SN
+│
+├── Accueil
+├── À propos
+└── Contact
+
+La navigation doit utiliser des ancres smooth scroll.
+
+Exemple :
+
+Accueil → #accueil
+À propos → #apropos
+Contact → #contact
+5. Structure globale de la page
+
+Je recommande cette architecture :
+
+┌──────────────────────────────────────┐
+│              NAVBAR                  │
+├──────────────────────────────────────┤
+│                                      │
+│             HERO                     │
+│                                      │
+├──────────────────────────────────────┤
+│                                      │
+│          À PROPOS                     │
+│                                      │
+├──────────────────────────────────────┤
+│                                      │
+│        COMPÉTENCES                    │
+│                                      │
+├──────────────────────────────────────┤
+│                                      │
+│          PROJETS                      │
+│                                      │
+├──────────────────────────────────────┤
+│                                      │
+│       MA FAÇON DE TRAVAIL             │
+│                                      │
+├──────────────────────────────────────┤
+│                                      │
+│          CONTACT                      │
+│                                      │
+├──────────────────────────────────────┤
+│             FOOTER                   │
+└──────────────────────────────────────┘
+
+Même si la navigation ne contient que Accueil / À propos / Contact, les autres sections peuvent exister naturellement dans la page.
+
+6. Navbar
+Design
+
+La navbar doit être minimaliste.
+
+Gauche
+
+Logo :
+
+SN
+
+Le logo doit utiliser les initiales de :
+
+Stanislas N'doua
+
+Style recommandé :
+
+SN
+
+avec un gradient violet/bleu.
+
+Centre / droite
+
+Navigation :
+
+Accueil
+À propos
+Contact
+
+L'élément actif doit être visuellement identifiable.
+
+Exemple :
+
+Accueil
+────────
+
+avec une petite ligne violette sous l'élément actif.
+
+Navbar desktop
+SN                         Accueil    À propos    Contact
+Navbar mobile
+
+La navigation doit devenir un menu hamburger :
+
+SN                                      ☰
+
+Au clic :
+
+Accueil
+À propos
+Contact
+
+Le menu doit pouvoir se fermer automatiquement après sélection.
+
+7. Hero Section
+
+La hero section constitue la partie la plus importante du site.
+
+Elle doit être fortement inspirée de l'image de référence fournie.
+
+Objectif
+
+En quelques secondes, le visiteur doit comprendre :
+
+qui est Stanislas ;
+ce qu'il fait ;
+ce qu'il peut créer ;
+comment le contacter.
+8. Composition de la Hero
+Partie gauche
+
+Contenu textuel.
+
+Partie droite
+
+Portrait de Stanislas + éléments graphiques.
+
+Structure :
+
+┌─────────────────────────────────────────────────────┐
+│ SN                 Navigation                       │
+│                                                     │
+│ ┌───────────────┐          ◯                        │
+│ │ VIBE CODER    │       portrait                    │
+│ └───────────────┘          │                        │
+│                                                     │
+│ Salut, je suis                                      │
+│ STANISLAS N'DOUA             ┌───────────────┐     │
+│                               │ Code          │     │
+│ Je développe des              │               │     │
+│ solutions web.                │ JavaScript... │     │
+│                               └───────────────┘     │
+│ Description                                         │
+│                                                     │
+│ [Voir mon travail] [Télécharger mon CV]             │
+└─────────────────────────────────────────────────────┘
+9. Contenu Hero recommandé
+Badge
+JE SUIS STANISLAS N'DOUA
+
+ou :
+
+VIBE CODER
+Titre principal
+Salut, je suis
+Stanislas N'doua
+
+Le nom doit être mis en évidence avec un gradient.
+
+Sous-titre
+Je développe des solutions web.
+
+Le mot web peut être légèrement accentué par le gradient.
+
+Description
+
+Proposition :
+
+Je suis un jeune vibe coder passionné par la création d'expériences numériques modernes et performantes. Je transforme des idées en solutions web concrètes grâce au code, à l'IA et aux technologies modernes.
+
+10. CTA Hero
+
+Deux boutons principaux.
+
+CTA 1
+Voir mon travail ↗
+
+Action :
+
+scroll → #projets
+CTA 2
+Télécharger mon CV ↓
+
+Action :
+
+Téléchargement du fichier PDF du CV.
+
+11. Portrait
+
+Le portrait fourni par l'utilisateur doit être utilisé comme élément central de la hero.
+
+Le traitement visuel doit conserver une apparence professionnelle.
+
+Traitement recommandé
+détourage propre ;
+suppression du fond original ;
+léger contraste ;
+légère correction colorimétrique ;
+intégration avec le fond sombre ;
+halo violet/bleu derrière le personnage ;
+éventuellement légère ombre ;
+aucun effet excessif.
+
+Le personnage doit rester le point focal visuel.
+
+12. Éléments graphiques de la Hero
+
+Pour reprendre l'esprit du design fourni :
+
+Cercle lumineux
+
+Derrière Stanislas :
+
+       ◯
+    portrait
+
+avec un gradient :
+
+bleu → violet
+Carte Code
+
+Une carte flottante à droite du personnage.
+
+Exemple :
+
+┌──────────────────────────────┐
+│ </> Code                 ●   │
+├──────────────────────────────┤
+│ const developer = {          │
+│                              │
+│   name: "Stanislas N'doua",  │
+│   role: "Vibe Coder",        │
+│   skills: ["Web", "IA"],     │
+│   passion: "Créer"           │
+│                              │
+│ };                           │
+└──────────────────────────────┘
+
+Cette carte doit être décorative mais cohérente avec le profil.
+
+13. Éléments décoratifs
+
+Utiliser avec modération :
+
+points lumineux ;
+petites particules ;
+lignes ;
+flèches ;
+gradients ;
+glow ;
+formes géométriques.
+
+Important : les décorations ne doivent jamais nuire à la lisibilité.
+
+14. Section À propos
+Objectif
+
+Présenter Stanislas de manière plus personnelle.
+
+Titre :
+
+À propos de moi
+
+Structure en deux colonnes sur desktop.
+
+Gauche
+
+Photo secondaire ou élément graphique.
+
+Droite
+
+Texte.
+
+Exemple :
+
+Je suis Stanislas N'doua, un jeune passionné par le développement web et les nouvelles technologies.
+
+Mon approche repose sur la combinaison du développement logiciel, de l'intelligence artificielle et du Vibe Coding pour concevoir rapidement des solutions modernes, utiles et intuitives.
+
+15. Section Compétences
+
+Cette section permet de montrer les technologies maîtrisées ou actuellement utilisées.
+
+Exemple :
+
+Développement
+HTML
+CSS
+JavaScript
+Python
+Frameworks / outils
+React
+Next.js
+Flask
+Git
+GitHub
+Intelligence artificielle
+IA générative
+Prompt Engineering
+AI-assisted coding
+Agents IA
+Bases de données
+SQLite
+PostgreSQL
+
+Important : seules les technologies réellement maîtrisées ou utilisées par Stanislas doivent apparaître.
+
+16. Section Projets
+
+Cette section est essentielle pour un portfolio.
+
+Titre :
+
+Mes projets
+
+Chaque projet doit être présenté sous forme de carte.
+
+Carte projet
+┌──────────────────────────────┐
+│                              │
+│        IMAGE PROJET          │
+│                              │
+├──────────────────────────────┤
+│ Application de gestion       │
+│                              │
+│ Description courte           │
+│                              │
+│ Python • Flask • SQLite      │
+│                              │
+│ [Voir le projet] ↗           │
+└──────────────────────────────┘
+Chaque projet doit contenir
+image ;
+nom ;
+courte description ;
+technologies ;
+lien GitHub si disponible ;
+lien démo si disponible.
+17. Section Méthode de travail
+
+Cette section peut différencier Stanislas des autres portfolios.
+
+Titre :
+
+Comment je transforme une idée en projet
+
+Étape 01
+
+Idée
+
+Comprendre le besoin et définir l'objectif.
+
+Étape 02
+
+Conception
+
+Définir l'architecture et l'expérience utilisateur.
+
+Étape 03
+
+Création
+
+Développer la solution avec les technologies adaptées.
+
+Étape 04
+
+Optimisation
+
+Tester, améliorer et rendre le produit performant.
+
+18. Section Contact
+
+Objectif : permettre au visiteur de contacter facilement Stanislas.
+
+Titre :
+
+Construisons quelque chose ensemble.
+
+Texte :
+
+Vous avez une idée, un projet ou simplement envie d'échanger ? N'hésitez pas à me contacter.
+
+Formulaire
+
+Champs :
+
+Nom
+Email
+Sujet
+Message
+
+Bouton :
+
+Envoyer le message →
+19. Contact rapide
+
+En complément du formulaire :
+
+Email
+WhatsApp
+LinkedIn
+GitHub
+
+Les informations réelles seront ajoutées lors de l'intégration.
+
+20. Footer
+
+Le footer doit rester minimaliste.
+
+Exemple :
+
+SN
+
+Stanislas N'doua
+Vibe Coder • Développeur Web
+
+LinkedIn   GitHub   WhatsApp
+
+© 2026 Stanislas N'doua
+Tous droits réservés.
+21. Direction artistique
+Palette
+Background principal
+#050816
+Background secondaire
+#080B1A
+Violet principal
+#7C3AED
+Violet clair
+#A78BFA
+Bleu
+#4F46E5
+Texte principal
+#FFFFFF
+Texte secondaire
+#A7AEC4
+22. Gradients
+
+Gradient principal :
+
+linear-gradient(
+  135deg,
+  #4F46E5,
+  #7C3AED,
+  #A855F7
+)
+
+À utiliser notamment pour :
+
+le nom ;
+certains boutons ;
+les halos ;
+certains éléments graphiques.
+23. Typographie
+
+La typographie doit être moderne et professionnelle.
+
+Je recommande :
+
+Principal
+
+Inter
+
+ou
+
+Manrope
+
+ou
+
+Plus Jakarta Sans
+
+Pour un design proche de la référence, Inter / Manrope sont de très bons choix.
+
+24. Hiérarchie typographique
+
+Hero :
+
+Titre : 64–80px desktop
+Sous-titre : 32–42px
+Description : 17–20px
+
+Tablet :
+
+Titre : 48–60px
+
+Mobile :
+
+Titre : 38–46px
+
+La taille doit utiliser des valeurs fluides lorsque possible.
+
+Exemple :
+
+font-size: clamp(2.5rem, 6vw, 5rem);
+25. Responsive Design
+
+Le site doit être conçu mobile-first.
+
+Mobile
+
+Largeur :
+
+320px → 767px
+
+La hero devient verticale :
+
+Navbar
+
+Texte
+↓
+CTA
+↓
+Portrait
+↓
+Code card
+Tablet
+768px → 1023px
+
+Le layout peut rester en deux colonnes lorsque l'espace le permet.
+
+Desktop
+1024px → 1439px
+
+Hero complète en deux colonnes.
+
+Large desktop
+1440px+
+
+Le contenu doit rester centré.
+
+Il ne faut surtout pas étirer le contenu sur toute la largeur.
+
+Utiliser par exemple :
+
+max-width: 1280px;
+margin: auto;
+26. Règles UX importantes
+
+Le site doit respecter :
+
+Lisibilité
+
+Le contraste texte/background doit être suffisamment élevé.
+
+Navigation
+
+La navigation doit être immédiatement compréhensible.
+
+Cohérence
+
+Les boutons doivent avoir les mêmes styles partout.
+
+Espacement
+
+Éviter les sections surchargées.
+
+Hiérarchie
+
+Chaque section doit avoir :
+
+Titre
+Sous-titre
+Contenu
+CTA éventuel
+Accessibilité
+
+Prévoir :
+
+textes alternatifs pour les images ;
+navigation clavier ;
+focus visible ;
+contraste suffisant ;
+boutons suffisamment grands ;
+labels pour les champs.
+27. Animations
+
+Les animations doivent être subtiles et professionnelles.
+
+Au chargement
+
+Le contenu peut apparaître progressivement :
+
+Badge
+↓
+Titre
+↓
+Description
+↓
+CTA
+↓
+Portrait
+Portrait
+
+Léger mouvement vertical :
+
+translateY(...)
+
+très lent.
+
+Code card
+
+Légère animation de flottement.
+
+Scroll
+
+Les sections peuvent apparaître avec :
+
+opacity
+transform
+Hover
+
+Boutons :
+
+translateY(-2px)
+
+et légère intensification du glow.
+
+28. Performance
+
+Le site doit être rapide.
+
+Objectifs :
+
+images optimisées ;
+lazy loading pour les images hors écran ;
+CSS optimisé ;
+JavaScript minimal ;
+éviter les animations lourdes ;
+éviter les vidéos en arrière-plan ;
+utiliser des formats modernes comme WebP/AVIF lorsque possible.
+29. SEO
+
+Le site doit être correctement configuré pour les moteurs de recherche.
+
+Title
+Stanislas N'doua — Vibe Coder & Développeur Web
+Description
+
+Stanislas N'doua, jeune Vibe Coder et développeur web passionné par la création de solutions numériques modernes et innovantes.
+
+H1
+
+Un seul H1 :
+
+Salut, je suis Stanislas N'doua
+Structure
+H1
+ ├── H2 À propos
+ ├── H2 Compétences
+ ├── H2 Projets
+ ├── H2 Méthode
+ └── H2 Contact
+30. Open Graph
+
+Lorsqu'on partage le portfolio sur WhatsApp, LinkedIn ou Facebook, il doit afficher une belle miniature.
+
+Prévoir :
+
+og:title
+og:description
+og:image
+og:url
+
+L'image Open Graph doit reprendre l'identité visuelle du portfolio.
+
+31. Fonctionnalités
+Fonctionnalités obligatoires
+ One Page
+ Navigation par ancres
+ Responsive
+ Menu mobile
+ Hero professionnelle
+ Logo SN
+ Portrait de Stanislas
+ Section À propos
+ Section Compétences
+ Section Projets
+ Section Contact
+ Footer
+ Téléchargement du CV
+ Liens réseaux sociaux
+ Animations
+ SEO de base
+32. Fonctionnalités optionnelles
+
+Dans une V2 :
+
+mode sombre/clair ;
+changement de langue FR/EN ;
+formulaire connecté à un backend ;
+compteur de projets ;
+témoignages ;
+blog ;
+système CMS ;
+analytics ;
+chatbot IA ;
+assistant IA personnel de Stanislas.
+33. Stack technique recommandée
+
+Comme le projet est destiné à un Vibe Coder, je recommande une stack moderne mais simple.
+
+Option recommandée
+Frontend
+   ↓
+React
+   +
+Vite
+   +
+Tailwind CSS
+   +
+Framer Motion
+
+Deployment
+   ↓
+Vercel / Netlify
+
+Versioning
+   ↓
+Git + GitHub
+
+Si tu souhaites quelque chose de très simple :
+
+HTML
+CSS
+JavaScript
+
+peut également suffire.
+
+Mais pour ton objectif d'apprentissage du Vibe Coding, je privilégierais :
+
+React + Vite + Tailwind CSS + Framer Motion
+
+34. Architecture technique
+
+Exemple :
+
+stanislas-portfolio/
+│
+├── public/
+│   ├── images/
+│   │   ├── stanislas.webp
+│   │   ├── project-01.webp
+│   │   ├── project-02.webp
+│   │   └── og-image.webp
+│   │
+│   └── cv/
+│       └── stanislas-ndoua-cv.pdf
+│
+├── src/
+│   ├── components/
+│   │   ├── Navbar.jsx
+│   │   ├── Hero.jsx
+│   │   ├── About.jsx
+│   │   ├── Skills.jsx
+│   │   ├── Projects.jsx
+│   │   ├── Process.jsx
+│   │   ├── Contact.jsx
+│   │   └── Footer.jsx
+│   │
+│   ├── data/
+│   │   └── projects.js
+│   │
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+│
+├── package.json
+└── README.md
+35. Architecture des composants
+App
+│
+├── Navbar
+│
+├── Hero
+│   ├── Badge
+│   ├── HeroText
+│   ├── CTAButtons
+│   ├── Portrait
+│   └── CodeCard
+│
+├── About
+│
+├── Skills
+│
+├── Projects
+│   └── ProjectCard
+│
+├── Process
+│   └── ProcessStep
+│
+├── Contact
+│   └── ContactForm
+│
+└── Footer
+
+Cette architecture permettra de modifier facilement chaque partie sans casser le reste du site.
+
+36. Identité visuelle
+
+Le logo officiel du site sera :
+
+SN
+
+Il doit apparaître :
+
+navbar ;
+éventuellement hero ;
+footer ;
+favicon.
+
+Le favicon peut également utiliser :
+
+SN
+37. Favicon
+
+Créer un favicon carré :
+
+┌───────┐
+│       │
+│  SN   │
+│       │
+└───────┘
+
+avec le même gradient violet/bleu.
+
+38. Critères d'acceptation
+
+Le projet sera considéré comme terminé lorsque :
+
+Design
+ Le design correspond à la direction artistique définie.
+ Le portrait est correctement intégré.
+ Le logo SN est présent.
+ Les couleurs sont cohérentes.
+ Les espaces sont équilibrés.
+Responsive
+ Le site fonctionne sur mobile.
+ Le site fonctionne sur tablette.
+ Le site fonctionne sur desktop.
+ Aucun débordement horizontal.
+ Le texte reste lisible.
+Navigation
+ Accueil fonctionne.
+ À propos fonctionne.
+ Contact fonctionne.
+ Smooth scrolling fonctionnel.
+ Menu mobile fonctionnel.
+Fonctionnalités
+ CV téléchargeable.
+ Bouton "Voir mon travail" fonctionnel.
+ Formulaire de contact fonctionnel.
+ Liens sociaux fonctionnels.
+Performance
+ Images optimisées.
+ Animations fluides.
+ Temps de chargement faible.
+SEO
+ Title.
+ Meta description.
+ H1 unique.
+ Alt images.
+ Open Graph.
+ Favicon.
+39. MVP — première version
+
+Pour éviter de trop complexifier le projet dès le départ, la V1 devrait contenir uniquement :
+
+NAVBAR
+   ↓
+HERO
+   ↓
+À PROPOS
+   ↓
+COMPÉTENCES
+   ↓
+PROJETS
+   ↓
+CONTACT
+   ↓
+FOOTER
+
+Avec :
+
+Design :
+
+dark ;
+violet/bleu ;
+animations ;
+portrait ;
+code card ;
+logo SN.
+
+Fonctionnel :
+
+navigation ;
+CV ;
+projets ;
+contact ;
+réseaux sociaux.
+40. Vision finale
+
+L'expérience utilisateur recherchée est :
+
+          VISITEUR
+             │
+             ▼
+        ┌───────────┐
+        │   HERO    │
+        └─────┬─────┘
+              │
+       "Qui est-il ?"
+              │
+              ▼
+        ┌───────────┐
+        │ À PROPOS  │
+        └─────┬─────┘
+              │
+       "Que sait-il faire ?"
+              │
+              ▼
+        ┌───────────┐
+        │COMPÉTENCES│
+        └─────┬─────┘
+              │
+       "Qu'a-t-il créé ?"
+              │
+              ▼
+        ┌───────────┐
+        │  PROJETS  │
+        └─────┬─────┘
+              │
+       "Comment le contacter ?"
+              │
+              ▼
+        ┌───────────┐
+        │  CONTACT  │
+        └───────────┘
+Positionnement final
+
+Le site ne doit pas simplement être « un portfolio de développeur ».
+
+Il doit positionner Stanislas comme :
+
+un jeune Vibe Coder capable d'utiliser le code et l'IA pour transformer rapidement des idées en solutions web modernes.
+
+C'est ce positionnement qui doit guider le design, les textes, les animations, les projets et les CTA

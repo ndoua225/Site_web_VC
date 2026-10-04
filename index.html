@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Stanislas N'doua — Vibe Coder &amp; Développeur Web</title>
+  <meta name="description" content="Stanislas N'doua, jeune Vibe Coder et développeur web passionné par la création de solutions numériques modernes et innovantes." />
+  <meta name="theme-color" content="#050816" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Stanislas N'doua — Vibe Coder &amp; Développeur Web" />
+  <meta property="og:description" content="Jeune Vibe Coder qui transforme des idées en solutions web modernes." />
+  <meta property="og:image" content="assets/og-image.webp" />
+  <meta property="og:url" content="" />
+
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <a class="skip-link" href="#accueil">Aller au contenu</a>
+
+  <!-- ============ NAVBAR ============ -->
+  <header class="navbar" id="navbar">
+    <div class="navbar__inner">
+      <a href="#accueil" class="logo" aria-label="Stanislas N'doua — Accueil">
+        <svg viewBox="0 0 96 64" width="68" height="46" aria-hidden="true">
+          <defs>
+            <linearGradient id="logoGrad" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0" stop-color="#4F46E5" />
+              <stop offset="1" stop-color="#A855F7" />
+            </linearGradient>
+          </defs>
+          <g font-family="Manrope, sans-serif" font-weight="800" font-size="62" font-style="italic" transform="skewX(-8)">
+            <text x="14" y="52" fill="#fff">S</text>
+            <text x="44" y="52" fill="url(#logoGrad)">N</text>
+          </g>
+        </svg>
+      </a>
+
+      <nav class="nav" id="nav" aria-label="Navigation principale">
+        <ul class="nav__list">
+          <li><a href="#accueil" class="nav__link is-active" data-section="accueil">Accueil</a></li>
+          <li><a href="#apropos" class="nav__link" data-section="apropos">À propos</a></li>
+          <li><a href="#contact" class="nav__link" data-section="contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <button class="burger" id="burger" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="nav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="accueil" aria-labelledby="hero-title">
+      <div class="hero__glow" aria-hidden="true"></div>
+
+      <div class="hero__inner">
+        <!-- Partie gauche : texte -->
+        <div class="hero__text">
+          <p class="badge anim" style="--d:.05s">JE SUIS STANISLAS N'DOUA</p>
+
+          <h1 id="hero-title" class="hero__title anim" style="--d:.15s">
+            <span class="hero__title-line">Salut, je suis</span>
+            <span class="hero__title-line gradient-text">Stanislas N’doua</span>
+          </h1>
+
+          <p class="hero__subtitle anim" style="--d:.25s">Je développe des solutions web<span class="dot">.</span></p>
+
+          <p class="hero__desc anim" style="--d:.35s">
+            Je suis un jeune vibe coder passionné par la création d'expériences numériques modernes
+            et performantes en utilisant les technologies web modernes.
+          </p>
+
+          <div class="hero__cta anim" style="--d:.45s">
+            <a href="#projets" class="btn btn--primary">
+              Voir mon travail
+              <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 18 18 6M8 6h10v10"/></svg>
+            </a>
+            <a href="cv/stanislas-ndoua-cv.pdf" class="btn btn--outline" download>
+              Télécharger mon CV
+              <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4v11m0 0-4.5-4.5M12 15l4.5-4.5M5 19h14"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Partie droite : portrait + éléments graphiques -->
+        <div class="hero__art anim" style="--d:.55s">
+          <svg class="art__arrow" viewBox="0 0 80 112" fill="none" aria-hidden="true">
+            <defs>
+              <linearGradient id="arrowGrad" x1="0" y1="1" x2="1" y2="0">
+                <stop offset="0" stop-color="#4F46E5" stop-opacity=".5" />
+                <stop offset="1" stop-color="#8B7CF6" />
+              </linearGradient>
+            </defs>
+            <path d="M3 110C5 62 30 24 68 6" stroke="url(#arrowGrad)" stroke-width="2" stroke-linecap="round" />
+            <path d="M48 4l21 2-10 20" stroke="#8B7CF6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+          </svg>
+
+          <svg class="art__dots" viewBox="0 0 129 91" aria-hidden="true">
+            <g fill="#7C5CF0">
+              <circle cx="4" cy="4" r="3"/><circle cx="35" cy="4" r="3"/><circle cx="66" cy="4" r="3"/><circle cx="97" cy="4" r="3"/><circle cx="125" cy="4" r="3"/>
+              <circle cx="4" cy="32" r="3"/><circle cx="35" cy="32" r="3"/><circle cx="66" cy="32" r="3"/><circle cx="97" cy="32" r="3"/><circle cx="125" cy="32" r="3"/>
+              <circle cx="4" cy="60" r="3"/><circle cx="35" cy="60" r="3"/><circle cx="66" cy="60" r="3"/><circle cx="97" cy="60" r="3"/><circle cx="125" cy="60" r="3"/>
+              <circle cx="4" cy="87" r="3"/><circle cx="35" cy="87" r="3"/><circle cx="66" cy="87" r="3"/><circle cx="97" cy="87" r="3"/><circle cx="125" cy="87" r="3"/>
+            </g>
+          </svg>
+
+          <div class="art__circle" aria-hidden="true"></div>
+
+          <img class="art__portrait" src="assets/stanislas.webp" width="528" height="472"
+               alt="Portrait de Stanislas N'doua, jeune vibe coder et développeur web" fetchpriority="high" />
+
+          <aside class="code-card" aria-label="Carte de code décorative">
+            <div class="code-card__head">
+              <span class="code-card__title">&lt;/&gt; Code</span>
+              <span class="code-card__status" aria-hidden="true"></span>
+            </div>
+            <pre class="code-card__body"><code><span class="c-file">stanislas-ndoua.js</span>
+<span class="c-kw">const</span> <span class="c-var">developer</span> = {
+  <span class="c-key">name</span>: <span class="c-str1">"Stanislas N'doua"</span>,
+  <span class="c-key">role</span>: <span class="c-str2">"Vibe Coder"</span>,
+  <span class="c-key">skills</span>: [<span class="c-str3">"Html"</span>, <span class="c-str3">"Css"</span>, <span class="c-str3">"Js"</span>,
+   <span class="c-str3">"React"</span>, <span class="c-str3">"Next.js"</span>],
+  <span class="c-key">passion</span>: <span class="c-str4">"Créer des solutions
+      web innovantes"</span>,
+};</code></pre>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ À PROPOS ============ -->
+    <section class="section" id="apropos" aria-labelledby="apropos-title">
+      <div class="container about">
+        <div class="about__visual reveal">
+          <div class="about__frame">
+            <div class="about__ring" aria-hidden="true"></div>
+            <img src="assets/stanislas.webp" width="528" height="472" loading="lazy"
+                 alt="Stanislas N'doua, jeune développeur web et vibe coder" />
+          </div>
+        </div>
+        <div class="about__text reveal">
+          <p class="eyebrow">Qui suis-je ?</p>
+          <h2 id="apropos-title" class="section__title">À propos de moi</h2>
+          <p>Je suis <strong>Stanislas N'doua</strong>, un jeune passionné par le développement web et les nouvelles technologies.</p>
+          <p>Mon approche repose sur la combinaison du développement logiciel, de l'intelligence artificielle et du Vibe Coding pour concevoir rapidement des solutions modernes, utiles et intuitives.</p>
+          <ul class="about__points">
+            <li><span>01</span> Je transforme des idées en produits web concrets.</li>
+            <li><span>02</span> J'utilise le code et l'IA pour aller vite sans sacrifier la qualité.</li>
+            <li><span>03</span> Je privilégie des interfaces claires, modernes et performantes.</li>
+          </ul>
+          <a href="#contact" class="btn btn--primary">Me contacter
+            <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ COMPÉTENCES ============ -->
+    <section class="section section--alt" id="competences" aria-labelledby="competences-title">
+      <div class="container">
+        <header class="section__head reveal">
+          <p class="eyebrow">Ce que je maîtrise</p>
+          <h2 id="competences-title" class="section__title">Compétences</h2>
+          <p class="section__sub">Les technologies que j'utilise pour concevoir mes projets.</p>
+        </header>
+        <div class="skills">
+          <article class="skill-card reveal">
+            <h3>Développement</h3>
+            <ul class="chips"><li>HTML</li><li>CSS</li><li>JavaScript</li><li>Python</li></ul>
+          </article>
+          <article class="skill-card reveal">
+            <h3>Frameworks &amp; outils</h3>
+            <ul class="chips"><li>React</li><li>Next.js</li><li>Flask</li><li>Git</li><li>GitHub</li></ul>
+          </article>
+          <article class="skill-card reveal">
+            <h3>Intelligence artificielle</h3>
+            <ul class="chips"><li>IA générative</li><li>Prompt Engineering</li><li>AI-assisted coding</li><li>Agents IA</li></ul>
+          </article>
+          <article class="skill-card reveal">
+            <h3>Bases de données</h3>
+            <ul class="chips"><li>SQLite</li><li>PostgreSQL</li></ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PROJETS ============ -->
+    <section class="section" id="projets" aria-labelledby="projets-title">
+      <div class="container">
+        <header class="section__head reveal">
+          <p class="eyebrow">Réalisations</p>
+          <h2 id="projets-title" class="section__title">Mes projets</h2>
+          <p class="section__sub">Une sélection de ce que j'ai construit.</p>
+        </header>
+        <div class="projects">
+          <article class="project-card reveal">
+            <img src="assets/projects/project-01.svg" width="640" height="400" loading="lazy" alt="Aperçu du projet Application de gestion" />
+            <div class="project-card__body">
+              <h3>Application de gestion</h3>
+              <p>Application web de gestion avec authentification, tableau de bord et base de données.</p>
+              <ul class="chips chips--sm"><li>Python</li><li>Flask</li><li>SQLite</li></ul>
+              <div class="project-card__links">
+                <a href="#" class="link-arrow" aria-label="Voir le projet Application de gestion">Voir le projet ↗</a>
+                <a href="#" class="link-arrow link-arrow--muted">GitHub</a>
+              </div>
+            </div>
+          </article>
+          <article class="project-card reveal">
+            <img src="assets/projects/project-02.svg" width="640" height="400" loading="lazy" alt="Aperçu du projet Site vitrine moderne" />
+            <div class="project-card__body">
+              <h3>Site vitrine moderne</h3>
+              <p>Site one page responsive, rapide et animé pour présenter une activité.</p>
+              <ul class="chips chips--sm"><li>HTML</li><li>CSS</li><li>JavaScript</li></ul>
+              <div class="project-card__links">
+                <a href="#" class="link-arrow" aria-label="Voir le projet Site vitrine moderne">Voir le projet ↗</a>
+                <a href="#" class="link-arrow link-arrow--muted">GitHub</a>
+              </div>
+            </div>
+          </article>
+          <article class="project-card reveal">
+            <img src="assets/projects/project-03.svg" width="640" height="400" loading="lazy" alt="Aperçu du projet Assistant IA" />
+            <div class="project-card__body">
+              <h3>Assistant IA</h3>
+              <p>Outil qui s'appuie sur l'IA générative pour automatiser des tâches du quotidien.</p>
+              <ul class="chips chips--sm"><li>React</li><li>IA générative</li><li>Agents IA</li></ul>
+              <div class="project-card__links">
+                <a href="#" class="link-arrow" aria-label="Voir le projet Assistant IA">Voir le projet ↗</a>
+                <a href="#" class="link-arrow link-arrow--muted">GitHub</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ MÉTHODE ============ -->
+    <section class="section section--alt" id="methode" aria-labelledby="methode-title">
+      <div class="container">
+        <header class="section__head reveal">
+          <p class="eyebrow">Ma façon de travailler</p>
+          <h2 id="methode-title" class="section__title">Comment je transforme une idée en projet</h2>
+        </header>
+        <ol class="steps">
+          <li class="step reveal"><span class="step__num">Étape 01</span><h3>Idée</h3><p>Comprendre le besoin et définir l'objectif.</p></li>
+          <li class="step reveal"><span class="step__num">Étape 02</span><h3>Conception</h3><p>Définir l'architecture et l'expérience utilisateur.</p></li>
+          <li class="step reveal"><span class="step__num">Étape 03</span><h3>Création</h3><p>Développer la solution avec les technologies adaptées.</p></li>
+          <li class="step reveal"><span class="step__num">Étape 04</span><h3>Optimisation</h3><p>Tester, améliorer et rendre le produit performant.</p></li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section class="section" id="contact" aria-labelledby="contact-title">
+      <div class="container contact">
+        <div class="contact__intro reveal">
+          <p class="eyebrow">Contact</p>
+          <h2 id="contact-title" class="section__title">Construisons quelque chose ensemble.</h2>
+          <p class="section__sub">Vous avez une idée, un projet ou simplement envie d'échanger ? N'hésitez pas à me contacter.</p>
+          <ul class="quick">
+            <li><a href="mailto:contact@exemple.com" data-social="email"><span class="quick__ico">✉</span> Email</a></li>
+            <li><a href="https://wa.me/" target="_blank" rel="noopener" data-social="whatsapp"><span class="quick__ico">☎</span> WhatsApp</a></li>
+            <li><a href="https://www.linkedin.com/" target="_blank" rel="noopener" data-social="linkedin"><span class="quick__ico">in</span> LinkedIn</a></li>
+            <li><a href="https://github.com/" target="_blank" rel="noopener" data-social="github"><span class="quick__ico">&lt;/&gt;</span> GitHub</a></li>
+          </ul>
+        </div>
+
+        <form class="form reveal" id="contact-form" novalidate>
+          <div class="field">
+            <label for="f-name">Nom</label>
+            <input id="f-name" name="name" type="text" autocomplete="name" required />
+          </div>
+          <div class="field">
+            <label for="f-email">Email</label>
+            <input id="f-email" name="email" type="email" autocomplete="email" required />
+          </div>
+          <div class="field field--full">
+            <label for="f-subject">Sujet</label>
+            <input id="f-subject" name="subject" type="text" required />
+          </div>
+          <div class="field field--full">
+            <label for="f-message">Message</label>
+            <textarea id="f-message" name="message" rows="5" required></textarea>
+          </div>
+          <button type="submit" class="btn btn--primary">Envoyer le message
+            <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg>
+          </button>
+          <p class="form__status" id="form-status" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <a href="#accueil" class="footer__logo" aria-label="Retour en haut">SN</a>
+        <div>
+          <strong>Stanislas N'doua</strong>
+          <p>Vibe Coder • Développeur Web</p>
+        </div>
+      </div>
+      <ul class="footer__links">
+        <li><a href="https://www.linkedin.com/" target="_blank" rel="noopener" data-social="linkedin">LinkedIn</a></li>
+        <li><a href="https://github.com/" target="_blank" rel="noopener" data-social="github">GitHub</a></li>
+        <li><a href="https://wa.me/" target="_blank" rel="noopener" data-social="whatsapp">WhatsApp</a></li>
+      </ul>
+    </div>
+    <p class="footer__copy">© 2026 Stanislas N'doua — Tous droits réservés.</p>
+  </footer>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>
